@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/bptest" mode="merge"/>
+    <filter root="/content/bptest" mode="merge"/>
+    <filter root="/content/dam/bptest" mode="merge">
+        <exclude pattern="/content/dam/bptest(/.*)?"/>
+        <include pattern="/content/dam/bptest/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/bptest/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/bptest" mode="merge"/>
+</workspaceFilter>
